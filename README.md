@@ -22,10 +22,14 @@ el.textContent = "Ice Cream";
 
 
 - Change The Book Cover To A Food Picture -
-let el = document.getElementById('.product-image__image--single'); -
-console.log(el.src); -
-el.src = "http://via.placeholder.com/350x150”; -
-el.setAttribute(‘title’, 'Gil'); -
+
+let el = document.getElementById('.product-image__image--single'); 
+
+console.log(el.src); 
+
+el.src = "http://via.placeholder.com/350x150”; 
+
+el.setAttribute(‘title’, 'Gil'); 
 
 
 ---------------------------------------------------
