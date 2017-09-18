@@ -29,4 +29,10 @@ el.setAttribute(‘title’, 'Gil');
 
 
 
+- Change Nav Menus To Different Words Taken From An Array That was Created -
+
+
+
+
+
 
