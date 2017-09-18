@@ -45,13 +45,13 @@ el.setAttribute(‘title’, 'Gil');
 
 - Change Logo By Replacing img element, With Our Own Created Element -
 
-let parent = document.querySelector(‘.indigo-logo’);
+let parent = document.querySelector('.indigo-logo');
 
-let oldImg = document.querySelector(‘img’);
+let oldImg = document.querySelector('img');
 
-let newImg = document.createElement(‘img’);
+let newImg = document.createElement('img');
 
-newImg.src = http://via.placeholder.com/130x66”;
+newImg.src = "http://via.placeholder.com/130x66";
 
 Parent.replaceChild(newImg, oldImg);
 
