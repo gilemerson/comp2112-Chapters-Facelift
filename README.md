@@ -77,6 +77,12 @@ Parent.replaceChild(newImg, oldImg);
 
 - Make The Book's Author Link Go To www.georgiancollege.ca.  -
 
+let el = document.getElementById('.item-contributor__link');
+
+console.log(el.src);
+
+el.src = "http://www.georgiancollege.ca";
+
 
 ---------------------------------------------------
 
