@@ -68,13 +68,20 @@ Parent.replaceChild(newImg, oldImg);
 const name = { ’firstName’ : ‘Gil’, ‘lastName’ : ‘Emerson’};
 
 function render(obj) {
+
 Let snippet = ‘
+
 <ul>
+  
 <li>${obj.firstName}</li>
 <li>${obj.lastName}</li>
+
 </ul>
+
 ‘;
+
 Return snippet;
+
 }
 
 let el = document.querySelector('item-price__normal');
