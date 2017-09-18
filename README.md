@@ -35,7 +35,7 @@ el.setAttribute(‘title’, 'Gil');
 ---------------------------------------------------
 
 
-- Change Nav Menus To Different Words Taken From An Array That was Created -
+- Change Nav Menus To Different Words Taken From An Array That was Created -  ('.top-nav') *
 
 let words = [‘My', ‘Name', Is', ‘Gil’, ‘Emerson', ‘This', ‘Is', 'My', 'Lab’, 'Two'];
 
