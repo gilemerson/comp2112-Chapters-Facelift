@@ -37,10 +37,14 @@ el.setAttribute(‘title’, 'Gil');
 
 - Change Nav Menus To Different Words Taken From An Array That was Created -
 
+let words = [‘My', ‘Name', Is', ‘Gil’, ‘Emerson', ‘This', ‘Is', 'My', 'Lab’, 'Two'];
+
+let items Array.from(document.querySelectorAll(‘li'));
+
+Items.map( item, index) => item.textContent = words[index]);
 
 
 ---------------------------------------------------
-
 
 
 - Change Logo By Replacing img element, With Our Own Created Element -
@@ -66,7 +70,18 @@ Parent.replaceChild(newImg, oldImg);
 ---------------------------------------------------
 
 
+- Use A Template Literal Within A Template Literal To Create Multiple ul-blocks Above, Using An Array Of Objects, Then Calling The Render(obj) Function By Manually Typing In The Console: -
 
+
+---------------------------------------------------
+
+- Make The Book's Author Link Go To www.georgiancollege.ca.  -
+
+
+---------------------------------------------------
+
+
+- Make The Button To "Add to Cart" So That It Erases The Body By Adding An AddEventListener('click'...). If you say -
 
 
 
