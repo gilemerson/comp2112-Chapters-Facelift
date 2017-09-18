@@ -1,5 +1,5 @@
 # comp2112-Chapters-Facelift
-Chapters facelift (javascript exercise)
+Chapters Facelift (javascript exercise)
 
 
 
