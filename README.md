@@ -51,7 +51,7 @@ let oldImg = document.querySelector(‘img’);
 
 let newImg = document.createElement(‘img’);
 
-newImg.src = http://via.placeholder.com/350x150”;
+newImg.src = http://via.placeholder.com/130x66”;
 
 Parent.replaceChild(newImg, oldImg);
 
