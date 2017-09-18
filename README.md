@@ -8,14 +8,25 @@ https://www.chapters.indigo.ca/en-ca/books/the-king-the-bowers-files/97804512397
 
 
 - Change The Book Title -
+
 let el = document.querySelector('.title');
 undefined
 console.log(el.textContent);
-            
-                The King: The Bowers Files
-            
-undefined
+
+                The King: The Bowers Files  
+                
 el.textContent = "Ice Cream";
 "Ice Cream"
+
+
+
+- Change The Book Cover To A Food Picture -
+
+let el = document.getElementById('.product-image__image--single');
+console.log(el.src);
+el.src = "http://via.placeholder.com/350x150”;
+el.setAttribute(‘title’, 'Gil');
+
+
 
 
