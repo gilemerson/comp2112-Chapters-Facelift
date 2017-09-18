@@ -65,11 +65,11 @@ Parent.replaceChild(newImg, oldImg);
 
 - Using A Template Literal With An Object To Change InnerHTML - 
 
-const name = { ’firstName’ : ‘Gil’, ‘lastName’ : ‘Emerson’};
+const name = { 'firstName' : 'Gil', 'lastName' : 'Emerson'};
 
 function render(obj) {
 
-Let snippet = ‘
+let snippet = '
 
 <ul>
   
@@ -78,15 +78,15 @@ Let snippet = ‘
 
 </ul>
 
-‘;
+';
 
-Return snippet;
+return snippet;
 
 }
 
 let el = document.querySelector('item-price__normal');
 
-El.innerHTML = render(name);
+el.innerHTML = render(name);
 
 ---------------------------------------------------
 
