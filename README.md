@@ -18,18 +18,17 @@ console.log(el.textContent);
 el.textContent = "Ice Cream";
 "Ice Cream"
 
+---------------------------------------------------
 
 
 - Change The Book Cover To A Food Picture -
-
 let el = document.getElementById('.product-image__image--single');
-
 console.log(el.src);
-
 el.src = "http://via.placeholder.com/350x150”;
-
 el.setAttribute(‘title’, 'Gil');
 
+
+---------------------------------------------------
 
 
 - Change Nav Menus To Different Words Taken From An Array That was Created -
