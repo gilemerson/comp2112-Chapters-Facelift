@@ -110,6 +110,15 @@ el.src = "http://www.georgiancollege.ca";
 
 - Make The Button To "Add to Cart" So That It Erases The Body By Adding An AddEventListener('click'...). If you say -
 
+let btn = document.getElementById(‘add-to-cart-button’);
+
+btn
+
+btn.addEventlistener(‘click, function() {
+
+document.documentElement.innerHTML = ‘';
+
+});
 
 
 
